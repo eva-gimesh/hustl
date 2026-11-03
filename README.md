@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HUSTL
 
 Student-focused talent platform (Freelance · Recruit · TeamUp), India-first (INR, en-IN formatting).
@@ -23,3 +24,6 @@ Runs through `server.ts` (key stays server-side). Without `GEMINI_API_KEY` the A
 - Freelance / Recruit / TeamUp load seed data from localStorage and sync to Supabase in the background.
 - Messaging and notifications are localStorage-only (not wired to Supabase yet). Secure RPCs exist in the hardening migration.
 - Demo login (local mode): hamlin.jaiju@gmail.com / password123
+=======
+# hustl
+>>>>>>> 96b0c11eecf0fbf447a2356af2e2d0be91f0fc62
