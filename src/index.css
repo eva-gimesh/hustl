@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #080B09;
+    --bg-secondary: #101510;
+    --bg-card: #141B15;
+    --accent-primary: #B6FF4A;
+    --accent-secondary: #7CCB37;
+    --text-primary: #F4F7F1;
+    --text-secondary: #A0AAA0;
+    --border-subtle: #273128;
+    
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.03em;
+  }
+}
+
+/* Custom utilities for esports/gaming precision aesthetic */
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Glow and subtle edge lighting */
+.glow-green-subtle {
+  box-shadow: 0 0 24px -6px rgba(182, 255, 74, 0.15);
+}
+
+.glow-green-hover:hover {
+  box-shadow: 0 0 30px -4px rgba(182, 255, 74, 0.22);
+}
+
+/* Precision grid line backgrounds */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(39, 49, 40, 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(39, 49, 40, 0.35) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-size: 24px 24px;
+  background-image: radial-gradient(circle, rgba(182, 255, 74, 0.12) 1px, transparent 1px);
+}
+
+/* Geometric angled cut corner for cyber-precision buttons/cards */
+.cut-corner-br {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+}
+
+.cut-corner-tl {
+  clip-path: polygon(10px 0, 100% 0, 100% 100%, 0 100%, 0 10px);
+}

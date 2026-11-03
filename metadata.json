@@ -1,0 +1,6 @@
+{
+  "name": "HUSTL — Gaming-Inspired Opportunity Platform",
+  "description": "The competitive talent and opportunity platform uniting freelance builders, high-growth startups, and visionary co-founders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
